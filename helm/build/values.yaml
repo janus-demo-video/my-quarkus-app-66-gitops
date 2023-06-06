@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-66
+  namespace: my-quarkus-app-66-dev
+  cluster: .apps.cluster-gc2ct.gc2ct.sandbox1891.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/my-quarkus-app-66
+  org: janus-demo-video
+  name: my-quarkus-app-66
+
+image:
+  host: quay.io/janus-demo-video
+  name: my-quarkus-app-66
+  tag: latest
